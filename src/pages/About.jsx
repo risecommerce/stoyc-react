@@ -9,10 +9,13 @@ const About = () => {
     // page content
     const pageTitle = 'Our Values & Culture'
     const pageDescription = 'Stoyc - Aboutus page'
-
+    const keywords= 'digital marketing'
     return (
         <>
-            <Meta title={pageTitle} />
+            
+           
+            <Meta title={pageTitle} description={pageDescription} keywords={keywords} />
+            
             <Title head={pageTitle} description={pageDescription} />
 
 

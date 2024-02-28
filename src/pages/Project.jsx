@@ -6,10 +6,10 @@ const Projects = () => {
     // page content
     const pageTitle = 'Partnerships we’ve built'
     const pageDescription = 'Stoyc - partnership'
-
+    const keywords = 'digital marketing'
     return (
         <>
-            <Meta title={pageTitle} />
+            <Meta title={pageTitle} description={pageDescription} keywords={keywords} />
             <Title head={pageTitle} description={pageDescription} />
             <section className="section portfolio-partner">
 

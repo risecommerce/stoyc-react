@@ -9,16 +9,19 @@ import Clock from "../components/Clock";
 import { ArrowRightCircle } from 'react-feather'
 import LoopingAnimation from '../components/LoopingAnimation'
 import Partcls from '../components/Particlas'
-
+import Meta from '../components/Meta'
 
 
 const Home = () => {
     // page content
-
+    const pageTitle = 'Stoyc Home Page'
+    const pageDescription = 'Stoyc - Digital Marketing Company'
+    const keywords = 'digital marketing'
     return (
            
 
         <>
+            <Meta title={pageTitle} description={pageDescription} keywords={keywords} />
             <section className="banner" id="animated-bg">
                 <LoopingAnimation />
                 <Partcls />
@@ -124,7 +127,7 @@ const Home = () => {
                                     <span className="fs-18 alt-font text-white">04</span>
                                 </Col>
                                 <Col className="col-md-11 col-9 d-flex align-items-center justify-content-between sm-mb-20px">
-                                    <span className="text-white fw-500 fs-30 alt-font font-weight-bold text-uppercase">WEBSITE                                      DEVELOPMENT</span>
+                                    <span className="text-white fw-500 fs-30 alt-font font-weight-bold text-uppercase">WEBSITE  DEVELOPMENT</span>
                                     <ArrowRightCircle />
                                 </Col>
                             </Row>
@@ -152,7 +155,7 @@ const Home = () => {
                 <Container>
                     <Row>
                         <Col className="col-lg-6 offset-lg-3">
-                            <div className="heading">
+                            <div className="heading text-center">
                                 <h2 className="mb-4" data-aos="fade-left" data-aos-delay={100}>What they say about us</h2>
 
                             </div>

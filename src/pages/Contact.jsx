@@ -10,10 +10,10 @@ const Contact = () => {
     // page content
     const pageTitle = 'Get in Touch'
     const pageDescription = 'Stoyc - Contact page'
-
+    const keywords = "digital marketing"
     return (
         <>
-            <Meta title={pageTitle} />
+            <Meta title={pageTitle} description={pageDescription} keywords={keywords} />
            
             <Title head={pageTitle} description={pageDescription} />
             <section className="section contact-cities">

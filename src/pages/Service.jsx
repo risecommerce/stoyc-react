@@ -6,10 +6,10 @@ const Services = () => {
     // page content
     const pageTitle = 'What We Do'
     const pageDescription = 'Stoyc - services'
-
+    const keywords = 'digital marketing'
     return (
         <>
-            <Meta title={pageTitle} />
+            <Meta title={pageTitle} description={pageDescription} keywords={keywords} />
             <Title head={pageTitle} description={pageDescription} />
 
 

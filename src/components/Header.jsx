@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import logo from '../assets/images/logo.png';
-import { ArrowRight } from 'react-feather'
+import { ArrowRight, Menu } from 'react-feather'
 import { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -31,7 +31,7 @@ const Header = () => {
                     aria-label="Toggle navigation"
                     className="navbar-toggler collapsed"
                 >
-                    <span className="ti-menu"></span>
+                    <span><Menu /></span>
                 </Navbar.Toggle>
 
                 <Navbar.Collapse id="stoycnav" className="text-center justify-content-end">
