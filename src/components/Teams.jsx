@@ -8,6 +8,18 @@ class Team extends Component {
             "team": {
                 "leads": [
                     {
+                        "name": "Hamed Bayat",
+                        "position": "JD/MBA, Senior Director",
+                        "image": "../assets/images/team/Director.jpg",
+                        "email": "",
+                        "social": {
+                            "instagram": {
+                                "handle": "@hmbayat",
+                                "link": "https://www.instagram.com/hmbayat/"
+                            }
+                        }
+                    },
+                    {
                         "name": "Rafi Baig",
                         "position": "Co-Founder",
                         "image": "../assets/images/team/Rafi.jpg",
@@ -44,8 +56,8 @@ class Team extends Component {
                         }
                     },
                     {
-                        "name": "Niloo F",
-                        "position": "Co-Founder",
+                        "name": "Niloofar Falahian",
+                        "position": "Director of Content Creation",
                         "image": "../assets/images/team/Team1.jpg",
                         "email": "niloo@stoyc.com",
                         "social": {
@@ -73,14 +85,12 @@ class Team extends Component {
                 </Row>
                 <Row className="align-items-center position-relative ">
                     {teamData.team.leads.map((lead, index) => (
-                        <Col className="col-md-4" key={index}>
+                        <div className="col-xs-6 col-sm-6 col-md-3" key={index}>
                             <div className="team-block mb-5 mb-lg-0">
                                 <img src={lead.image} alt={lead.name} className="img-fluid w-100" />
-                              
-
                                 <p className="social-profile">
                                     <a href="mailto:'{lead.email}'" rel="noreferrer">
-<Mail />
+                                        {lead.email && ( <Mail /> ) }
                                         <span className="ml-2 font-weight-bold">{lead.email}</span>
                                     </a>
                                     <a href={lead.social.instagram.link} className="instagram" target="_blank" rel="noreferrer">
@@ -93,11 +103,13 @@ class Team extends Component {
                             <h4 className="mt-4 team-name font-weight-bold">{lead.name}</h4>
                             <p className="team-position">{lead.position}</p>
                            
-                        </Col>
+                        </div>
 
-                        
+                       
                     ))}
                 </Row>
+
+             
             </>
         );
     }

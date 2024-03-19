@@ -17,7 +17,7 @@ const Projects = () => {
                 <div className="theme-container">
                     <Row>
 
-                        <Col className="col-lg-3 col-md-4 col-6 partners-wrap">
+                        <Col lg={3} md={4} xs={6} className="partners-wrap">
                             <div className="position-relative mb-4 partners-logo">
 
 
@@ -30,7 +30,7 @@ const Projects = () => {
 
                             </div>
                         </Col>
-                        <Col className="col-lg-3 col-md-4 col-6 partners-wrap">
+                        <Col lg={3} md={4} xs={6} className="partners-wrap">
                             <div className="position-relative mb-4 partners-logo">
 
                                 <div className="logo-container d-flex flex-wrap justify-content-center">
@@ -40,7 +40,7 @@ const Projects = () => {
 
                             </div>
                         </Col>
-                        <Col className="col-lg-3 col-md-4 col-6 partners-wrap">
+                        <Col lg={3} md={4} xs={6} className="partners-wrap">
                             <div className="position-relative mb-4 partners-logo">
 
                                 <div className="logo-container d-flex flex-wrap justify-content-center">
@@ -52,7 +52,7 @@ const Projects = () => {
 
                             </div>
                         </Col>
-                        <Col className="col-lg-3 col-md-4 col-6 partners-wrap">
+                        <Col lg={3} md={4} xs={6} className="partners-wrap">
                             <div className="position-relative mb-4 partners-logo">
 
                                 <div className="logo-container d-flex flex-wrap justify-content-center">
@@ -65,7 +65,7 @@ const Projects = () => {
                         </Col>
 
 
-                        <Col className="col-lg-3 col-md-4 col-6 partners-wrap">
+                        <Col lg={3} md={4} xs={6} className="partners-wrap">
                             <div className="position-relative mb-4 partners-logo">
 
                                 <div className="logo-container d-flex flex-wrap justify-content-center">
@@ -76,7 +76,7 @@ const Projects = () => {
 
                             </div>
                         </Col>
-                        <Col className="col-lg-3 col-md-4 col-6 partners-wrap">
+                        <Col lg={3} md={4} xs={6} className="partners-wrap">
                             <div className="position-relative mb-4 partners-logo">
 
                                 <div className="logo-container d-flex flex-wrap justify-content-center">
@@ -87,7 +87,7 @@ const Projects = () => {
 
                             </div>
                         </Col>
-                        <Col className="col-lg-3 col-md-4 col-6 partners-wrap">
+                        <Col lg={3} md={4} xs={6} className="partners-wrap">
                             <div className="position-relative mb-4 partners-logo">
 
                                 <div className="logo-container d-flex flex-wrap justify-content-center">
@@ -102,7 +102,7 @@ const Projects = () => {
 
 
 
-                        <Col className="col-lg-3 col-md-4 col-6 partners-wrap">
+                        <Col lg={3} md={4} xs={6} className="partners-wrap">
                             <div className="position-relative mb-4 partners-logo">
 
                                 <div className="logo-container d-flex flex-wrap justify-content-center">
@@ -115,7 +115,7 @@ const Projects = () => {
                             </div>
                         </Col>
 
-                        <Col className="col-lg-3 col-md-4 col-6 partners-wrap">
+                        <Col lg={3} md={4} xs={6} className="partners-wrap">
                             <div className="position-relative  mb-4 partners-logo">
 
                                 <div className="logo-container d-flex flex-wrap justify-content-center">
@@ -128,7 +128,7 @@ const Projects = () => {
                             </div>
                         </Col>
 
-                        <Col className="col-lg-3 col-md-4 col-6 partners-wrap">
+                        <Col lg={3} md={4} xs={6} className="partners-wrap">
                             <div className="position-relative mb-4 partners-logo">
 
                                 <div className="logo-container d-flex flex-wrap justify-content-center">
@@ -139,7 +139,7 @@ const Projects = () => {
 
                             </div>
                         </Col>
-                        <Col className="col-lg-3 col-md-4 col-6 partners-wrap">
+                        <Col lg={3} md={4} xs={6} className="partners-wrap">
                             <div className="position-relative mb-4 partners-logo">
 
                                 <div className="logo-container d-flex flex-wrap justify-content-center">
@@ -150,7 +150,7 @@ const Projects = () => {
 
                             </div>
                         </Col>
-                        <Col className="col-lg-3 col-md-4 col-6 partners-wrap">
+                        <Col lg={3} md={4} xs={6} className="partners-wrap">
                             <div className="position-relative mb-4 partners-logo">
 
                                 <div className="logo-container d-flex flex-wrap justify-content-center">
@@ -161,7 +161,7 @@ const Projects = () => {
 
                             </div>
                         </Col>
-                        <Col className="col-lg-3 col-md-4 col-6 partners-wrap">
+                        <Col lg={3} md={4} xs={6} className="partners-wrap">
                             <div className="position-relative mb-4 partners-logo">
 
                                 <div className="logo-container d-flex flex-wrap justify-content-center">
@@ -172,12 +172,22 @@ const Projects = () => {
 
                             </div>
                         </Col>
-                        <Col className="col-lg-3 col-md-4 col-6 partners-wrap">
+                        <Col lg={3} md={4} xs={6} className="partners-wrap">
                             <div className="position-relative mb-4 partners-logo">
 
                                 <div className="logo-container d-flex flex-wrap justify-content-center">
                                     <img
                                     src="../assets/images/client-logo/ths.png" className="img-fluid" alt="ths" data-aos="fade-in" />
+                                </div>
+
+                            </div>
+                        </Col>
+                        <Col lg={3} md={4} xs={6} className="partners-wrap">
+                            <div className="position-relative mb-4 partners-logo">
+
+                                <div className="logo-container d-flex flex-wrap justify-content-center">
+                                    <img
+                                        src="../assets/images/client-logo/kiss.png" className="img-fluid" alt="ths" data-aos="fade-in" />
                                 </div>
 
                             </div>

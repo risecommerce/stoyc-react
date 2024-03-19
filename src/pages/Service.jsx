@@ -18,7 +18,7 @@ const Services = () => {
                 <div className="theme-container">
                     <Row>
 
-                        <Col className="col-lg-3 col-md-6 col-sm-6">
+                        <Col  lg={3} md={6} sm={6}>
                             <div className="service-info ">
 
                                 <h3 className="mb-4 mt-2 ">
@@ -32,7 +32,7 @@ const Services = () => {
 
 
 
-                        <Col className="col-lg-3 col-md-6 col-sm-6">
+                        <Col  lg={3} md={6} sm={6}>
 
                             <div className="service-info ">
 
@@ -50,7 +50,7 @@ const Services = () => {
 
 
 
-                        <Col className="col-lg-3 col-md-6 col-sm-6">
+                        <Col  lg={3} md={6} sm={6}>
                             <div className="service-info">
 
                                 <h3 className="mb-4 mt-2 ">
@@ -67,7 +67,7 @@ const Services = () => {
 
 
 
-                        <Col className="col-lg-3 col-md-6 col-sm-6">
+                        <Col  lg={3} md={6} sm={6}>
                             <div className="service-info">
 
                                 <h3 className="mb-4 mt-2 ">
@@ -78,7 +78,7 @@ const Services = () => {
                             </div>
                         </Col>
 
-                        <Col className="col-lg-3 col-md-6 col-sm-6">
+                        <Col  lg={3} md={6} sm={6}>
                             <div className="service-info mb-5 mb-lg-0">
 
                                 <h3 className="mb-4 mt-2 ">
@@ -92,7 +92,7 @@ const Services = () => {
 
 
 
-                        <Col className="col-lg-3 col-md-6 col-sm-6">
+                        <Col  lg={3} md={6} sm={6}>
                             <div className="service-info">
 
                                 <h3 className="mb-4 mt-2 ">
@@ -103,7 +103,7 @@ const Services = () => {
                                     narrative.</p>
                             </div>
                         </Col>
-                        <Col className="col-lg-3 col-md-6 col-sm-6">
+                        <Col  lg={3} md={6} sm={6}>
                             <div className="service-info mb-5 mb-lg-0">
 
                                 <h3 className="mb-4 mt-2 ">
@@ -116,7 +116,7 @@ const Services = () => {
 
                             </div>
                         </Col>
-                        <Col className="col-lg-3 col-md-6 col-sm-6">
+                        <Col  lg={3} md={6} sm={6}>
                             <div className="service-info mb-5 mb-lg-0">
 
                                 <h3 className="mb-4 mt-2 ">

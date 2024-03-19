@@ -51,7 +51,7 @@ const Footer = () => {
 
                     <Row className=" align-items-center">
 
-                        <Col className="col-lg-6">
+                        <Col lg={6} xs={12}>
                             <div className="footer-regional d-flex flex-wrap justify-content-between">
                                 <div className="footer__address footer__address--primary">
                                     <div className="footer__address-name" data-aos="fade-up-right">
@@ -97,11 +97,11 @@ const Footer = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col className="col-lg-5 mt-5 mt-md-0 offset-lg-1">
+                        <Col lg={5} xs={12} className="mt-5 mt-md-0 offset-lg-1">
                             <div className="newsletter-content" data-aos="fade-up-left">
 
                                 <div className="input-group">
-                                    <input type="email" className="form-control border-bottom border-white"
+                                    <input type="email" className="form-control text-white border-bottom border-white"
                                         placeholder="Enter your email" />
                                     <span className="input-group-btn  ml-lg-4 mt-3 mt-lg-0">
                                         <button className="btn btn-solid-white" type="submit">Subscribe</button>
@@ -168,7 +168,7 @@ const Footer = () => {
 
                     <div className="footer-btm py-4 mt-5">
                         <Row>
-                            <Col className="col-lg-6">
+                            <Col lg={6}>
                                 <div className="copyright">
                                     &copy; Copyright Reserved to <span className="site-name text-uppercase">Stoyc</span>
                                 </div>

@@ -10,7 +10,7 @@ const Cta = () => {
                 <Container>
                     <div className="cta-block py-5">
                         <Row className="align-items-center ">
-                            <Col className="col-lg-8">
+                            <Col xs={12} lg={8} >
                                 <h2 className="mt-2 mb-4 mb-lg-0" data-aos="fade-right" data-aos-delay="100">Let's Get The Ball
                                     Rolling
                                 </h2>
@@ -23,7 +23,7 @@ const Cta = () => {
                                 </span>
                             </Col>
                            
-                            <Col className="col-lg-4">
+                            <Col xs={12} lg={4}>
                                 <Link to="/Contact" className="btn btn-main mt-5 mt-md-0 btn-round-full float-lg-right" data-aos="fade-up-left">Let's
                                     connect</Link>
                                

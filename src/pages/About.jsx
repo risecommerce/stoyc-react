@@ -24,7 +24,7 @@ const About = () => {
                 <Container>
                     <Row>
 
-                        <Col className="col-md-6 intro-part mb-5">
+                        <Col md={6} className="intro-part mb-5">
                             <span className="text-color font-weight-bold">01</span>
                             <h3 className="text-md mb-4 subheading">
                                 Vision
@@ -37,7 +37,7 @@ const About = () => {
                                 marketing.
                             </p>
                         </Col>
-                        <Col className="col-md-6 intro-part mb-5">
+                        <Col md={6} className="intro-part mb-5">
                             <span className="text-color font-weight-bold">02</span>
                             <h3 className="text-md mb-4 subheading">
                                 Mission
@@ -50,7 +50,7 @@ const About = () => {
                                 deep,
                                 impactful connections between brands and their audiences.</p>
                         </Col>
-                        <Col className="col-md-6  intro-part mb-5">
+                        <Col md={6} className=" intro-part mb-5">
                             <span className="text-color font-weight-bold">03</span>
                             <h3 className="text-md mb-4 subheading">
                                 Strategy
@@ -62,7 +62,7 @@ const About = () => {
                                 the
                                 essence of who we are and what sets us apart in the digital world.</p>
                         </Col>
-                        <Col className="col-md-6  intro-part">
+                        <Col md={6} className=" intro-part">
                             <span className="text-color font-weight-bold">04</span>
                             <h3 className="text-md mb-4 subheading">
                                 Expertise

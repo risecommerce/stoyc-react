@@ -28,7 +28,7 @@ const Home = () => {
                 <div className="theme-container">
                     <Row className="h100vh align-content-center">
 
-                        <Col className="col-lg-9 col-12">
+                        <Col lg={9} xs={12 }>
                             <div className="block text-left">
                                 <h1 className="mb-3 mt-3 fadede-qoutes" data-aos="fade-right">
                                     Social Media Is Not Just A Megaphone, It's A Tool For Building Meaningful Relationships
@@ -51,7 +51,7 @@ const Home = () => {
                 <Container className="text-center">
                     <Row className="align-items-center">
 
-                        <Col className="col-md-12">
+                        <Col md={12} xs={12}>
                             <h2 className="text-uppercase about-head text-black aos-init aos-animate" data-aos="fade-up" data-aos-delay={100}>Who We Are</h2>
                             <div className="intro-para text-center font-weight-bold section">
                                 <p className="mb-2" data-aos="fade-down" data-aos-delay={100}>
@@ -75,12 +75,12 @@ const Home = () => {
             <section className="bg-black overflow-hidden big-section py-5">
                 <Container>
                     <Row className="mb-5 mt-5 sm-mb-50px">
-                        <Col className="col-12 col-xl-9 col-lg-12">
+                        <Col lg={12} xs={12} xl={9}>
                             <h2 className="text-white fw-500 pb-5 mb-0 alt-font" data-aos="fade-right" data-aos-delay={100}>What We're Known For</h2>
                         </Col>
                     </Row>
                     <Row className=" align-items-center mb-5 sm-mb-30px">
-                        <Col className="col-lg-6 animated-content">
+                        <Col lg={6} className="animated-content">
                             <div className="tiled-text text-white">
                                 <div className="tilted1"><span className="tiled" data-aos="zoom-in-up" data-aos-delay={100}>Social Media Optimization</span></div>
                                 <div className="tilted2"><span className="tiled " data-aos="zoom-in-down" data-aos-delay={150}>Social Media Management</span></div>
@@ -93,49 +93,49 @@ const Home = () => {
                                 <div className="tilted9"><span className="tiled " data-aos="zoom-in-up" data-aos-delay={150}>Business Marketing</span></div>
                             </div>
                         </Col>
-                        <Col className="col-lg-6 animated-content">
+                        <Col lg={6}  className="animated-content">
                             <Row className="py-4 text-white align-items-center hover-row border-top border-bottom border-color-dark-gray position-relative" data-aos="fade-up" data-aos-delay={100}>
-                                <Col className="col-md-1 col-3 text-start text-md-center sm-mb-20px">
+                                <Col md={1} xs={3} className="text-start text-md-center sm-mb-20px">
                                     <span className="fs-18 alt-font text-white">01</span>
                                 </Col>
-                                <Col className="col-md-11 col-9 d-flex align-items-center justify-content-between sm-mb-20px">
+                                <Col md={11} xs="9" className="d-flex align-items-center justify-content-between sm-mb-20px">
                                     <span className="text-white fw-500 fs-30 alt-font font-weight-bold text-uppercase">SOCIAL MEDIA MARKETING</span>
                                     <ArrowRightCircle />
                                    
                                 </Col>
                             </Row>
                             <Row className="py-4 text-white align-items-center hover-row border-top border-bottom border-color-dark-gray position-relative" data-aos="fade-up" data-aos-delay={100}>
-                                <Col className="col-md-1 col-3 text-start text-md-center sm-mb-20px">
+                                <Col md={1} xs={3} className="text-start text-md-center sm-mb-20px">
                                     <span className="fs-18 alt-font text-white">02</span>
                                 </Col>
-                                <Col className="col-md-11 col-9 d-flex align-items-center justify-content-between sm-mb-20px">
+                                <Col md={11} xs="9" className="d-flex align-items-center justify-content-between sm-mb-20px">
                                     <span className="text-white fw-500 fs-30 alt-font font-weight-bold text-uppercase">ADVERTISING</span>
                                     <ArrowRightCircle />
                                 </Col>
                             </Row>
                             <Row className="py-4 text-white align-items-center hover-row border-top border-bottom border-color-dark-gray position-relative" data-aos="fade-up" data-aos-delay={100}>
-                                <Col className="col-md-1 col-3 text-start text-md-center sm-mb-20px">
+                                <Col md={1} xs={3} className="text-start text-md-center sm-mb-20px">
                                     <span className="fs-18 alt-font text-white">03</span>
                                 </Col>
-                                <Col className="col-md-11 col-9 d-flex align-items-center justify-content-between sm-mb-20px">
+                                <Col md={11} xs="9" className="d-flex align-items-center justify-content-between sm-mb-20px">
                                     <span className="text-white fw-500 fs-30 alt-font font-weight-bold text-uppercase">CONTENT CREATION</span>
                                     <ArrowRightCircle />
                                 </Col>
                             </Row>
                             <Row className="py-4 text-white align-items-center hover-row border-top border-bottom border-color-dark-gray position-relative" data-aos="fade-up" data-aos-delay={100}>
-                                <Col className="col-md-1 col-3 text-start text-md-center sm-mb-20px">
+                                <Col md={1} xs={3} className="text-start text-md-center sm-mb-20px">
                                     <span className="fs-18 alt-font text-white">04</span>
                                 </Col>
-                                <Col className="col-md-11 col-9 d-flex align-items-center justify-content-between sm-mb-20px">
+                                <Col xs={9} md={11} className="d-flex align-items-center justify-content-between sm-mb-20px">
                                     <span className="text-white fw-500 fs-30 alt-font font-weight-bold text-uppercase">WEBSITE  DEVELOPMENT</span>
                                     <ArrowRightCircle />
                                 </Col>
                             </Row>
                             <Row className="py-4 text-white align-items-center hover-row border-top border-bottom border-color-dark-gray position-relative" data-aos="fade-up" data-aos-delay={100}>
-                                <Col className="col-md-1 col-3 text-start text-md-center sm-mb-20px">
+                                <Col md={1} xs={3} className="text-start text-md-center sm-mb-20px">
                                     <span className="fs-18 alt-font text-white">05</span>
                                 </Col>
-                                <Col className="col-md-11 col-9 d-flex align-items-center justify-content-between sm-mb-20px">
+                                <Col xs={9} md={11} className="d-flex align-items-center justify-content-between sm-mb-20px">
                                     <span className="text-white fw-500 fs-30 alt-font font-weight-bold text-uppercase">BRAND STRATEGY</span>
                                     <ArrowRightCircle />
                                 </Col>
@@ -143,7 +143,7 @@ const Home = () => {
                         </Col>
                     </Row>
                     <Row className="text-white justify-content-center mb-5" data-aos="fade-up" data-aos-delay={100}>
-                        <div className="col-lg-12 col-md-10 text-center">
+                        <div lg={12} md={10} className="text-center">
                             <div className="text-white fs-20">Save your precious time and effort spent for finding a solution.  <Link to="/contact" className="text-white text-decoration-line-bottom">Contact us now</Link></div>
                         </div>
                     </Row>
@@ -154,14 +154,14 @@ const Home = () => {
 
                 <Container>
                     <Row>
-                        <Col className="col-lg-6 offset-lg-3">
+                        <Col lg={6}  className="offset-lg-3">
                             <div className="heading text-center">
                                 <h2 className="mb-4" data-aos="fade-left" data-aos-delay={100}>What they say about us</h2>
 
                             </div>
                         </Col>
 
-                        <Col className="col-lg-12 testimonial-wrap">
+                        <Col lg={12}  className="testimonial-wrap">
                             <Testimonial />
 
                         </Col>

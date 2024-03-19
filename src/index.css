@@ -2607,3 +2607,19 @@ a.read-more {
   }
 }
 
+ .box {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: #aaa;
+   margin: 20px 0;
+   padding: 10px;
+   width: 100%;
+   min-height: 200px;
+   border: 2px #ccc solid;
+   color: #fff;
+ }
+.swiper-button-prev,
+.swiper-button-next {
+  color: #000000 !important;
+}
